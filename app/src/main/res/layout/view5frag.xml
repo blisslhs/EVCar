@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/basic_btn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="경제적"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+                    <Button
+                        android:id="@+id/basic_btn_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f7f7f7"
+                        android:gravity="center"
+                        android:text="산업적"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#0e0046"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/basic_btn_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="질문/편의"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="전기차와 V2G"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- V2G는 Vehicle To Grid로, 자동차에서 전력망으로 전기를 이동하\n는 것을 의미하는데, 즉, V2G란 전기차에 저장한 배터리를 에너지저\n장장치(ESS)처럼 활용해 전력계통에 연계하는 기술을 의미합니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 이산화탄소의 배출을 줄이면서 친환경적이고 경제성을 갖추어\n 지속가능한 성장을 이어갈 수 있는 산업모델로 정착하게되고 향\n후 V2G사업자와 수요관리사업자 등, V2G를 활용하여 피크절감\n효과뿐 아니라 선진국과 같은 전력계통 주파수 조정, 신재생에너\n지 발판 등 다양한 전력보조서비스와 부가가치를 창출할 것입니다.
+ "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="ESS(에너지 저장장치), V2G가 주는 이점"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 스마트그리드에서 전기차가 제역할을 하기위해서는 V2G기술\n이 필수입니다. V2G란 전기차와 플러그인하이브리드 등 충전식\n 친환경차를 전력망과 연결시켜 주차 중 유휴 전력을 이용하는 개\n념입니다. 즉 전기차가 움직이는 에너지저장장치라고 보면 됩니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:text="- 에너지저장장치(ESS,Energy Storage System)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:text="- 산업적 측면의 V2G를 보면 V2G 사업자와 수요관리 사업자 등 V2G를 활용하여 전력 절감효과뿐만 아니라 선진국과 같은 전력계통 주파수 조정, 신재생에너지의 발판을 만들 수 있는 다양한 전력보조서비스와 부가가치를 창출 할 수 있게 됩니다."/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/frag5png"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

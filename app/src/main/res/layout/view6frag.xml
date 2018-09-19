@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/basic_btn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="경제적"
+                    android:layout_weight="3"/>
+                <Button
+                    android:id="@+id/basic_btn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="산업적"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+                    <Button
+                        android:id="@+id/basic_btn_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f7f7f7"
+                        android:gravity="center"
+                        android:text="질문/편의"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#0e0046"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="잘못된 오해"
+                    android:gravity="center"/>
+            </LinearLayout>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 전기차에는 전자파가 나온다 ?."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 전자파가 나오기는 하지만 일상생활에서 사용하는 스마트폰이나 와\n이파이 기기에서 나오는 것보다는 현저히낮다. 전기계통이 차폐되어\n 있는 상태에서 전기를 운동에너지로 바꿔주는 것이기 때문에 대부분\n 노출되지 않는다. 전자레인지보다도 전기차가 안전합니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. 대전류를 사용해서 위험성이 높다 ?"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 안전한 충전이 가능하도록 국제표준 기준에 의해 제품이 만들어지\n고, 통제 장치가 여러 단계에 걸쳐서 있기 때문에 걱정하지 않으셔도\n 됩니다. 가솔린을 채워 넣을 때 나오는 가스를 마신다거나 질소산화물을 마시는 것보다 건강에 영향을 끼치지 않습니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. 전기를 이용해서 급발진 사고가 일어날 수도 있다 ?"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 생산 되어지는 모든 차들은 마이크로프로세서를 이용한 제어계통\n을 사용하고 있습니다. 전기를 이용한 구동장치를 제외하고는 화석연료를 사용하는 차와 구분이 없기 때문에 그 부분에 대해서는 안심하셔도\n 됩니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. 화석연료를 사용하기 때문에 매연이 발생한다 ?"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 전기가 발전소부터 전기차까지 이동하는 과정 중에 여러 단계가 필\n요하지만 결과적으로 화석연료를 바로 사용하는 것보다 훨씬 높은 효\n율을 자랑합니다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/frag6png"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="편의성"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 작동과 거의 동시에 시원한 바람을 뿜는다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 공회전이라는 게 없으니 지하주차장 등 밀폐된 공간에서도 시\n동을 걸고 에어컨을 빵빵하게 틀어놓고 정차가능"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 차 자체도 열을 덜 받음. 땡볕 아래 대놓으면 차가 금방 달궈지\n는데, 전기차는 덜 달궈진다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 쉐보레 볼트는 원격시동 가능해서 미리 시동 켜놓으면 쾌적한 상\n태의 차량을 탈 수 있다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 심야 전력으로 자택에서 충전 가능하다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 기어를 바꿔줄 필요가 없어 운전 조작이 간편하다."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/frag6png2"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            />
+        <EditText
+            android:id="@+id/reg_id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/overlap"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID중복체크"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="PW"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/reg_pw"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="PW 확인"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/reg_pw2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/pw_info"
+            android:textColor="#ff0000"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="성명"
+            />
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="성별"/>
+        <RadioGroup
+            android:id="@+id/radiogroup_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/reg_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="남"/>
+
+            <RadioButton
+                android:id="@+id/reg_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="휴대폰"
+            android:gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="지역" />
+        <EditText
+            android:id="@+id/reg_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="이메일"
+            />
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/reg_email"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인증메일 발송"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="인증키"
+            />
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/et_keyNum"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/certified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인증확인"/>
+        <TextView
+            android:id="@+id/email_info"
+            android:textColor="#ff0000"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/reg_bt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_black_input_selector"
+            android:textColor="#ffffff"
+            android:text="회원가입"
+            />
+        <Button
+
+            android:layout_marginLeft="15dp"
+            android:id="@+id/cancel_bt"
+            android:text="취소"
+            android:background="@drawable/login_input_selector"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+           />
+    </LinearLayout>
+
+</LinearLayout>
+

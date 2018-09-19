@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/basic_btn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="소개"
+                    android:layout_weight="3"/>
+                <Button
+                    android:id="@+id/basic_btn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f7f7f7"
+                    android:text="작동 원리"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+                    <Button
+                        android:id="@+id/basic_btn_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f7f7f7"
+                        android:gravity="center"
+                        android:text="목적"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#0e0046"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="자동차로 인한 대기오염 해결"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-수도권에서 발생하는 미세먼지의 30%이상이 경유차 등 자동차\n에서 배출되는 오염물질로서, 자동차로 인한 대기오염이 심각해\n지고 있습니다."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="-또한, 아파트 주변도로, 지하주차장 등 국민 생활에 밀접한 곳\n에서 발생하는 자동차 배출가스는 인체 위해도가 매우 높아 '12년\n에 국제암연구소에서 1군 발암물질로 지정하기도 하였습니다."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="-내연기관차를 친환경차인 전기차로 대체해나갈 경우 자동차로\n 인한 대기오염 문제를 획기적으로 해결할 수 있습니다."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="- 자동차에서 배출되는 유해물질은 일산화탄소(CO), 탄화수소\n(HC), 질소산화물(NOx), 미세먼지(PM)등이 있습니다."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/frag3png"
+                android:layout_marginTop="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/frag"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="자동차로 인한 기후변화"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 전기차 사용량이 증가하면 내연기관차로 인해 발생되는 대기오염\n물질, 온실가스 등 배출량이 감소되며 전기차 1대 보급으로 연간\n CO2 2톤을 감축하는효과를 가져옵니다."/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/frag3png2"
+                android:layout_marginTop="7dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

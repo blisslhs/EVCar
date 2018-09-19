@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login_view">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Are you Eco Driver?"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        />
+<!--
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:background="@drawable/intro"/>-->
+
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_id"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:hint=" ID"
+            android:textSize="20dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_pw"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:background="#FFFFFF"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+        <RelativeLayout
+            android:id="@+id/rl_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_pw"
+            android:layout_marginTop="10dp">
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:buttonTint="#ffffff"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="로그인 정보 기억하기"
+                android:textColor="#FFFFFF"
+                android:layout_toRightOf="@+id/checkBox"
+                android:layout_marginTop="5dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_checkBox"
+            android:layout_marginTop="5dp">
+            <CheckBox
+                android:id="@+id/auto_login"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:buttonTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동로그인"
+                android:textColor="#FFFFFF"
+                android:layout_toRightOf="@+id/auto_login"
+                android:layout_marginTop="5dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/mem_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#f7f7f7"
+        android:text="로그인"
+        android:background="@drawable/login_black_input_selector" />
+    <Button
+        android:id="@+id/mem_register"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="회원가입"
+        android:background="@drawable/login_input_selector"
+        android:padding="8dp" />
+ <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:text="에코드라이버"
+        android:textColor="@color/white"
+        android:textSize="28dp" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="created by anonymous"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
